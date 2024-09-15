@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <link rel="stylesheet" href="test.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="to-do-app">
+           <h2>To-do App</h2>
+           <input type="text" id="item" placeholder="Enter item...">
+           <br>
+           <br>
+           <button onclick="add()">Add Item <i class="fa-solid fa-plus"></i></button>
+           <button onclick="delAll()">Clear all <i class="fa-solid fa-ban"></i></button>
+           <button onclick="removeCompleted()">Remove Completed</button>
+        </div>
+        <ul id="to-do-list"></ul><!--to-do items go here-->
+        <div>
+            <ul id="history">
+                <h2>Task History</h2>
+
+            </ul>
+         </div>
+     </div>
+     
+<script src="test.js"></script>
+</body>
+</html>
