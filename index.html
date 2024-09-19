@@ -12,19 +12,30 @@
            <input type="text" id="item" placeholder="Enter item...">
            <br>
            <br>
-           <button onclick="add()">Add Item <i class="fa-solid fa-plus"></i></button>
-           <button onclick="delAll()">Clear all <i class="fa-solid fa-ban"></i></button>
-           <button onclick="removeCompleted()">Remove Completed</button>
+           <button id="addItem" onclick="add()">Add Item <i class="fa-solid fa-plus"></i></button>
+           <button id="delAll" onclick="delAll()">Clear all <i class="fa-solid fa-ban"></i></button>
+           <button id="removeCompleted" onclick="removeCompleted()">Remove Completed</button>
         </div>
-        <ul id="to-do-list"></ul><!--to-do items go here-->
-        <div>
+        <div id="list-container">
+            <ul id="to-do-list">
+            
+            </ul><!--to-do items go here-->
+        </div>
+        <div id="history-container" class="hide">
+            
+            <!-- <h2>Task History</h2> -->
             <ul id="history">
-                <h2>Task History</h2>
-
+                
             </ul>
+           <button id="clearHistory" onclick="clearHistory()">Clear History</button>
+
          </div>
+         <div class="navbar">
+            <!-- <button id="home" onclick="goHome()">Home</button> -->
+            <button id="archive" onclick="goArchive()">History</button>
+        </div>
      </div>
-     
+    
 <script src="test.js"></script>
 </body>
 </html>
