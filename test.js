@@ -97,6 +97,7 @@ function removeCompleted(){
     for (let i = 0; i < completed.length; i++){
         completed[i].remove();
     }
+    location.reload();
 }
 
 //? CLEAR ALL BUTTON
