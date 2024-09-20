@@ -139,7 +139,7 @@ body {
     padding: 5px;
   }
   .to-do-app input {
-    height: 5vh;
+    height: 1vh;
     width: 100vw;
     /* width: 300px; */
     padding: 5px;
@@ -154,12 +154,12 @@ body {
     /* border: red solid 1px; */
     justify-content: space-between;
     gap: 3px;
-    height: 45%;
+    height: 50%;
     width: 90vw;
   }
   .to-do-app button {
-    height: 40%;
-    width: 49%;
+    height: 30%;
+    width: 40%;
     /* padding: 5px; */
     cursor: pointer;
     border: var(--border-color) 2px solid;
