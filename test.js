@@ -102,9 +102,10 @@ function removeCompleted(){
 
 //? CLEAR ALL BUTTON
 function delAll() {
-    localStorage.clear('tasks');
+    // localStorage.clear('tasks');
     ul.innerHTML = "";
     taskArray = [];
+    location.reload();
 }
 
 
