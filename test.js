@@ -102,7 +102,7 @@ function removeCompleted(){
 
 //? CLEAR ALL BUTTON
 function delAll() {
-    // localStorage.clear('tasks');
+    localStorage.removeItem('tasks');
     ul.innerHTML = "";
     taskArray = [];
     location.reload();
