@@ -139,7 +139,7 @@ body {
     padding: 5px;
   }
   .to-do-app input {
-    height: 100px;
+    height: 10px;
     width: 100vw;
     /* width: 300px; */
     padding: 5px;
@@ -158,8 +158,8 @@ body {
     width: 90vw;
   }
   .to-do-app button {
-    height: 30%;
-    width: 40%;
+    height: 50%;
+    width: 45%;
     /* padding: 5px; */
     cursor: pointer;
     border: var(--border-color) 2px solid;
@@ -175,13 +175,13 @@ body {
 
   #clearHistory{
     background-color: rgba(255, 153, 0, 0.644);
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+/*     border-bottom-left-radius: 0; */
+/*     border-bottom-right-radius: 0; */
   }
   #removeCompleted {
     background-color: rgba(255, 153, 0, 0.644);
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0
+/*     border-bottom-left-radius: 0; */
+/*     border-bottom-right-radius: 0 */
   }
 /** ---------------------------------------------------------------------------------------  */
 
