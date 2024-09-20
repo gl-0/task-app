@@ -139,7 +139,7 @@ body {
     padding: 5px;
   }
   .to-do-app input {
-    height: 1vh;
+    height: 100px;
     width: 100vw;
     /* width: 300px; */
     padding: 5px;
